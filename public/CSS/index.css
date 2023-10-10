@@ -47,15 +47,12 @@ p {
   font-family: 'Lexend Peta', sans-serif;
 }
 
-p-1{
+p1{
   font-family: 'Lexend Peta', sans-serif;
   color: white;
 
 }
 
-.text-right {
-  text-align: right;
-}
 
 header {
   background-color: #2547a0;
@@ -167,6 +164,7 @@ nav a {
   text-decoration: none;
 }
 
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -199,7 +197,6 @@ nav a {
   max-width: 100%;
   height: auto;
 }
-
 
 section {
   padding: 40px 0;
@@ -239,6 +236,33 @@ section#bs{
   margin-bottom: 20px;
 }
 
+/* Style the portfolio item container */
+.portfolio-item {
+  text-align: center;
+}
+
+/* Style the text under the image */
+.portfolio-text {
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+/* Custom size for wide rectangle */
+.wide-rectangle {
+  max-height: 400px; /* Set a maximum height for wide rectangles */
+  max-width: 100%;
+}
+
+.long-rectangle{
+    max-width: 100%;
+  max-height: 400px; /* Set a maximum height for consistent alignment */
+  width: auto;
+  height: auto;
+  object-fit: cover; /* Maintain image aspect ratio and cover the container */
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -273,6 +297,23 @@ section#bs{
 .bg-blue {
   background-color: #2547a0;
   }
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+  /* Adjust the image size for smaller screens */
+  .larger-image {
+    width: 100%; /* Adjust the width as needed for larger images */
+  }
+}
+
+.btn-phone {
+  background-color: #211f1f; /* Set your desired background color */
+  color: #fff !important; /* Set the text color to white and use !important to override other styles */
+  padding: 8px 20px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  font-family: 'Lexend Peta', sans-serif;
+}
 
 form {
   margin-top: 20px;
