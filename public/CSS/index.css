@@ -198,6 +198,29 @@ nav a {
   height: auto;
 }
 
+/* For mobile screens */
+@media (max-width: 768px) {
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-item {
+    text-align: center;
+  }
+  .portfolio-text {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .carousel-inner {
+    flex-wrap: nowrap;
+  }
+  .carousel-inner .carousel-item {
+    width: 100%;
+  }
+}
+
+
 section {
   padding: 40px 0;
   background-color: #fff;
@@ -236,17 +259,7 @@ section#bs{
   margin-bottom: 20px;
 }
 
-/* Style the portfolio item container */
-.portfolio-item {
-  text-align: center;
-}
 
-/* Style the text under the image */
-.portfolio-text {
-  font-size: 18px;
-  margin-top: 10px;
-  padding: 10px;
-}
 
 
 /* Custom size for wide rectangle */
