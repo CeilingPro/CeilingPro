@@ -193,6 +193,11 @@ nav a {
   }
 }
 
+.hero-phone {
+  color: white;
+  text-decoration: none; /* Remove underline for phone number */
+}
+
 .carousel-inner img {
   max-width: 100%;
   height: auto;
@@ -343,7 +348,7 @@ form textarea {
 form button {
   padding: 8px 20px; /* Adjust padding as needed */
   background-color: #fff;
-  color: #333;
+  color: #211f1f;
   border: none;
   cursor: pointer;
 }
