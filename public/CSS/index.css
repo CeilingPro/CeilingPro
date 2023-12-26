@@ -199,7 +199,7 @@ nav a {
 }
 
 .carousel-inner img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -325,6 +325,15 @@ section#bs{
 }
 
 .btn-phone {
+  background-color: #211f1f; /* Set your desired background color */
+  color: #fff !important; /* Set the text color to white and use !important to override other styles */
+  padding: 8px 20px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+.btn-email {
   background-color: #211f1f; /* Set your desired background color */
   color: #fff !important; /* Set the text color to white and use !important to override other styles */
   padding: 8px 20px; /* Adjust padding as needed */
