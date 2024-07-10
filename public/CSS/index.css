@@ -168,33 +168,18 @@ nav a {
 }
 
 .carousel-inner img {
-  max-width: 40%;
+  width: 100%;
+  height: auto;
+}
+
+.hero-content .carousel-inner img {
+  width: 50%; /* Adjust to 50% for desktop */
   height: auto;
 }
 
 @media (max-width: 768px) {
-  .carousel-item {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .portfolio-item {
-    text-align: center;
-  }
-
-  .portfolio-text {
-    font-size: 14px;
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-  }
-
-  .carousel-inner {
-    flex-wrap: nowrap;
-  }
-
-  .carousel-inner .carousel-item {
-    width: 100%;
+  .hero-content .carousel-inner img {
+    width: 100%; /* Set to 100% for mobile */
   }
 }
 
@@ -207,8 +192,6 @@ section h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
-
-
 
 section#contact {
   background-color: #2547a0;
@@ -256,7 +239,7 @@ section#contact .form-control:focus {
 }
 
 section#contact .btn-primary {
-  background: #D4A017;
+  background: #D4A017; /* New mustard yellow color */
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -267,7 +250,7 @@ section#contact .btn-primary {
 }
 
 section#contact .btn-primary:hover {
-  background: #B8860B;
+  background: #B8860B; /* Darker shade for hover */
 }
 
 section#services {
@@ -279,7 +262,6 @@ section#bs {
   padding: 50px;
   background-color: #2547a0;
   color: white;
-  font-family: 'Lexend Peta', sans-serif;
 }
 
 section#clients {
@@ -333,6 +315,15 @@ section#clients {
     width: 100%;
     max-height: none;
   }
+
+  .larger-image {
+    width: 100%;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .card h3 {
@@ -345,12 +336,6 @@ section#clients {
 
 .bg-blue {
   background-color: #2547a0;
-}
-
-@media (max-width: 768px) {
-  .larger-image {
-    width: 100%;
-  }
 }
 
 .btn-phone, .btn-email {
@@ -373,7 +358,7 @@ form input, form textarea {
 
 form button {
   padding: 15px 20px;
-  background-color: #ff6600;
+  background-color: #D4A017; /* New mustard yellow color */
   color: #fff;
   border: none;
   cursor: pointer;
@@ -384,7 +369,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #cc5200;
+  background-color: #B8860B; /* Darker shade for hover */
 }
 
 footer {
