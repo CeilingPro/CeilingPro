@@ -282,6 +282,11 @@ section#clients {
   margin-bottom: 20px;
 }
 
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
 .wide-rectangle {
   max-height: 400px;
   max-width: 100%;
@@ -325,6 +330,20 @@ section#clients {
     width: 100%;
     height: auto;
   }
+}
+
+.portfolio-carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Set a fixed height */
+}
+
+.portfolio-carousel .carousel-item img {
+  max-height: 300px; /* Ensure all images have the same max height */
+  width: auto;
+  height: auto;
+  object-fit: cover;
 }
 
 .card h3 {
