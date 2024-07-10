@@ -256,7 +256,7 @@ section#contact .form-control:focus {
 }
 
 section#contact .btn-primary {
-  background: #ff6600;
+  background: #D4A017;
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -267,7 +267,7 @@ section#contact .btn-primary {
 }
 
 section#contact .btn-primary:hover {
-  background: #cc5200;
+  background: #B8860B;
 }
 
 section#services {
